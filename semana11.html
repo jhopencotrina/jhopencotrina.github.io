@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>SEMANA 11</title>
+    <link rel="stylesheet" href="semana1.css">
+</head>
+<body>
+<div class="semana1">
+    <h1>Semana 11: Next Auth y Server Side Props en Next.js</h1>
+
+    <span class="casa">DEFINICIONES</span>
+    <h2>NextAuth.js es una biblioteca de autenticación para Next.js que facilita la implementación de sistemas de autenticación en tus aplicaciones. Permite la autenticación con diversas estrategias, como redes sociales, proveedores de identidad federados, bases de datos locales y más.</h2>
+    <h2>GetServerSideProps es una función en Next.js que se utiliza para obtener datos en el lado del servidor (SSR) antes de que una página se renderice.</h2>
+    <h2>NextAuth.js maneja la complejidad de la autenticación, el manejo de sesiones y la gestión de tokens de acceso, lo que simplifica considerablemente el proceso de incorporar la autenticación en tu aplicación Next.js.</h2>
+    <p>Para usar NextAuth.js, generalmente configuras un archivo next-auth.config.js con la configuración de autenticación y luego lo integras en tu aplicación Next.js.</p>
+    
+    <span class="casa">PROCEDIMIENTOS</span>
+    <h2>Para usar NextAuth.js y GetServerSideProps los siguientes pasos son:</h2>
+    <p>Se implementa la función getServerSideProps para realizar la lógica del servidor y obtener datos.</p>
+    <p>Luego se implementa la función getServerSideProps para realizar la solicitud a la API y obtener los datos.</p>
+    <p>Crea un archivo next-auth.config.js para configurar NextAuth.js con los proveedores de autenticación que desees utilizar.</p>
+    <p>Crea un archivo pages/api/auth/[...nextauth].js para configurar la API Route de NextAuth.js.</p>
+    
+    <span class="casa">RESULTADOS</span>
+    <p>La combinación de getServerSideProps y NextAuth.js permite un desarrollo seguro y escalable. Ademas de proporcionar una base sólida para construir aplicaciones web seguras, dinámicas y eficientes.</p>
+    <p>Se puede autenticar a los usuarios y proporcionar contenido dinámico basado en su estado de autenticación y otros datos del lado del servidor.</p>
+    <p>En resumen, el uso de getServerSideProps y NextAuth.js puede aportar resultados significativos al desarrollo de páginas web al mejorar la seguridad, la eficiencia, y la experiencia del usuario al gestionar la autenticación y la obtención de datos en el lado del servidor.</p>
+
+    <div class="cursosi">
+        <img class="imagen" src="img/auth.png" alt="">
+    </div>
+
+</div>
+</body>
+</html>

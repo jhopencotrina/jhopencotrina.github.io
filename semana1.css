@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.inicio{
+    width: 100%;
+    height: 100vh;
+    background-color: #191c32;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: inherit;
+    padding: 20px;
+}
+
+.inicio h1{
+    color: #1792b7; 
+    font-size: 200px;
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid;    
+}
+
+@keyframes typing{
+    from{ width: 0}
+}
+
+@keyframes blink{
+    50% { border-color: transparent;}
+}
+
+.inicio h2{
+    font-size: 50px;
+    color: #cfd8d7;
+}
+
+.semana1{
+    background-color: #1e2326;
+    color: #1792b7;;
+    padding: 50px 20px;
+}
+
+.contenido .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.semana1 h1{
+    font-size: 55px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+    color: #cad5d7;;
+}
+
+.semana1 h2{
+    font-size: 18px;
+    text-align:justify;
+    padding: 8px 0;
+    color: #f4f7f7;
+}
+
+.semana1 span {
+    font-size: 35px;
+    font-family:'Righteous';
+    text-align: center;
+    margin-bottom: 25px;
+    color: lightskyblue;
+    padding: 10px 0;
+}
+
+.semana1 p {
+    margin-bottom: 10px; 
+    text-align: justify;
+}
+.casa {
+    display: block; 
+    margin: 20px 2; /* Agregar espacio arriba y abajo para separar visualmente los elementos */
+    font-size: 1.5em; /* Ajustar el tamaño del texto según tus preferencias */
+    font-weight: bold; 
+}
+.imagen {
+    border: 2px solid red; 
+    border-radius: 8px;
+    margin: 0 auto; 
+    display: block; 
+}
